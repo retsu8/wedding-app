@@ -31,6 +31,7 @@ func main() {
 }
 
 func JokeHandler(c *gin.Context) {
+  // JokeHandler handles spooling the jokes
   c.Header("Content-Type", "application/json")
   c.JSON(http.StatusOK, gin.H {
     "message": "Jokes handler not implemented yet",
