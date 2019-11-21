@@ -1,0 +1,32 @@
+{
+  "name": "wedding-app",
+  "version": "1.0.0",
+  "description": "Wedding webpage",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "react": "^16.12.0",
+    "reactdom": "^2.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "build": "webpack --progress --colors -p --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retsu8/wedding-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retsu8/wedding-app/issues"
+  },
+  "homepage": "https://github.com/retsu8/wedding-app#readme"
+}
