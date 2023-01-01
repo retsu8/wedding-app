@@ -4,16 +4,16 @@
   "description": "Wedding webpage",
   "main": "webpack.config.js",
   "dependencies": {
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.3",
     "react": "^16.12.0",
     "reactdom": "^2.0.0",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.41.2"
+    "sass-loader": "^13.2.0",
+    "style-loader": "^1.3.0",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "test": "npm run test",
